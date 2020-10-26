@@ -1,6 +1,6 @@
 body{
 	background-image:url(../picture/background.PNG);
-	background-size:cover;
+	background-size:cover;//cover主要用於背景圖小於所在的內容
 }
 
 .top-bar #top-bar {
