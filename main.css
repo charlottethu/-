@@ -104,23 +104,18 @@ body{
 .btn-success{
     background-color: #ccc69d;
     border-color:#ccc69d;
-    float: right;
 
 }
 .btn-success:hover{
     background-color: #c1ccd2;
-    border-color:#c1ccd2;
+    border-color:#ccc69d;
 
 }
-/*動不了*/
-.btn-success:active {
-    background-color: #c1ccd2;
-    border-color:#c1ccd2;
 
-}
 .input-group-prepend{
     background-color: #ccc69d!important;
-   
+    
+
 }
 .no-records-found{
     background-color: #ccc69d!important;
@@ -129,11 +124,9 @@ body{
 }
 .form-control{
     border-color:#ccc69d;
-}
-/*動不了*/
-.form-control ::-webkit-input-placeholder { color: #c1dcdc; }
-.form-control:-ms-input-placeholder{color: #c1dcdc;}
+    color:#c1dcdc!important;
 
+}
 #basic-addon1{
      background-color:#0000;
 }
@@ -146,18 +139,12 @@ body{
     color: #fff;
     background-color: #ccc69d;
     border-color: #ccc69d #dee2e6 #ccc69d;
-     
+   
 }
 .nav-tabs .nav-link {
     border: 1px solid transparent;
     border-radius: 20px;
-}  
-
-.nav-link.active.show {
-	 width: 75px;
-	 height: 45px;
-
-}
+}   
 
 /*-------滾動條整體樣式----*/
 
@@ -192,9 +179,4 @@ border-radius:10px;
 
 background:#0000;
 
-}
-
-.search-title{
-	color: #2768A8;
-	font-size: 33px;
 }
